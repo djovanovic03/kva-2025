@@ -1,0 +1,167 @@
+.korpa {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.korpa .cart-holder table {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border-spacing: 0 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.korpa .cart-holder table .tr-gradient {
+    background: linear-gradient(
+        270deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 80%,
+        rgba(239, 83, 80, 0.1) 100%
+    );
+}
+
+.korpa .cart-holder table th { 
+    background: transparent !important;
+    color: #37474f;
+    font-size: 17px !important;
+    text-align: center;
+    font-weight: 600;
+}
+
+.korpa .cart-holder table td {
+    color: #37474f;
+    background: transparent !important;
+    border: 1px solid #ef5350;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 16px !important;
+    text-align: center;
+}
+
+.korpa .cart-holder table td img {
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+.korpa .cart-holder table td:first-child {
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #ef5350;
+    border-right: none;
+}
+
+.korpa .cart-holder table td:last-child {
+    background: #ffffff !important;
+    border: 1px solid #ef5350;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.korpa .cart-holder h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1e1e2f;
+    font-weight: 600;
+}
+
+.korpa .cart-holder .amount {
+    background-color: #f5f9fc;
+    color: #1e1e2f;
+    padding: 5px;
+    border: 1px solid #cfd8dc;
+    margin-right: 10px;
+    border-radius: 10px;
+    max-width: 50px;
+}
+
+.korpa .cart-holder .amount:focus {
+    border: 1px solid #42a5f5;
+    outline: none;
+}
+
+.korpa .cart-holder .remove-btn {
+    background-color: #ef5350;
+    color: #ffffff;
+    border: 1px solid #ef5350;
+    border-radius: 10px;
+    padding: 5px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.korpa .cart-holder .remove-btn:hover {
+    background-color: #ffffff;
+    color: #ef5350;
+}
+
+.korpa .summary {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: #37474f;
+}
+
+.korpa .btns-holder {
+    margin-top: 20px;
+}
+
+.korpa .btns-holder button {
+    background-color: #42a5f5;
+    color: #ffffff;
+    border: 1px solid #42a5f5;
+    padding: 13px 20px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.korpa .btns-holder button:hover {
+    background-color: #ffffff;
+    color: #42a5f5;
+    border: 1px solid #42a5f5;
+}
+
+.korpa .btns-holder p {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1e1e2f;
+}
+
+.korpa .btns-holder .clear-cart {
+    margin-top: 10px;
+    background-color: #ef5350;
+    border: 1px solid #ef5350;
+    color: #ffffff;
+}
+
+.korpa .btns-holder .clear-cart:hover {
+    background-color: #ffffff;
+    color: #ef5350;
+}
+
+.korpa .no-order {
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #1e1e2f;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.korpa .no-order mat-card-content p a {
+    color: #42a5f5;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.korpa .no-order mat-card-content p a:hover {
+    text-decoration: none;
+    color: #1e88e5;
+}

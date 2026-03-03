@@ -1,0 +1,29 @@
+.app .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    padding: 12px 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.app .navbar .logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e88e5;
+    cursor: default;
+}
+
+.app .navbar .nav a {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #37474f;
+    transition: 0.2s;
+}
+
+.app .navbar .nav a:hover {
+    color: #26c6da;
+}
